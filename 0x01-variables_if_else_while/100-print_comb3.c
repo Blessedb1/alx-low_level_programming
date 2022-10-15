@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * main block
+ * main - main block
  * Description:Print all possible different combinations of two digits
  * Return: Always 0
  */
 int main(void)
 {
 	int i, j, k;
+
 	i = 0;
 
 	while (i < 100)
