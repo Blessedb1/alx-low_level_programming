@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - prints alpha in lower and upper case
+ * main - main block
+ * Description: Prints alpha in lower and upper case
  * Return: Always 0
  */
-
 int main(void)
 {
 	char c = 'a';
@@ -17,7 +16,7 @@ int main(void)
 
 	c = 'A';
 
-	while (c <= 'z')
+	while (c <= 'Z')
 	{
 		putchar(c);
 		c++;
