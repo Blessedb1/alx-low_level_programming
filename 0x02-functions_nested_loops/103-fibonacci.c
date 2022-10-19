@@ -18,6 +18,6 @@ int main(void)
 		x = y;
 		y = sum;
 	}
-	printf("%11d\n", tSum);
+	printf("%ld\n", tSum);
 	return (0);
 }
