@@ -9,7 +9,7 @@
 int main(void)
 
 {
-	unsingned long int i, j, k, j1, j2, k1, k2;
+	unsigned long int i, j, k, j1, j2, k1, k2;
 
 	j = 1;
 	k = 2;
@@ -20,7 +20,7 @@ int main(void)
 	{
 		printf(", %lu", k);
 		k = k + j;
-		j = k + j;
+		j = k - j;
 	}
 
 	j1 = j / 1000000000;
